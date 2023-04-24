@@ -20,7 +20,7 @@ const options: NextAuthOptions = {
          */
         try {
           const { data } = await axios.post(
-            "http://localhost:3001/api/userauth",
+            "http://localhost:3000/api/userauth",
             { email: credentials.email, password: credentials.password },
             {
               headers: {

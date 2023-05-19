@@ -12,7 +12,7 @@ const options: NextAuthOptions = {
     }),
 
     CredentialsProvider({
-      name: "Credentials",
+      name: "Credentials", 
       credentials: {},
       async authorize(credentials: any, _req) {
         /*
